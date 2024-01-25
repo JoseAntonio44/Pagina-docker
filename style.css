@@ -1,5 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+header a{
+    text-decoration: none;
+}
+.cajaHeader1:hover{
+    transition: 400ms;
+    background-color: rgb(220, 220, 220);
+}
+.cajaHeader2:hover{
+    transition: 400ms;
+    background-color: #072f7f;
 }
 header img{
     padding-left: 30px;
@@ -9,7 +21,9 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px grey;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    border-color: #c4c8d1;
     flex-wrap: nowrap;
     width: 100%;
 }
@@ -111,4 +125,9 @@ div img{
     header img{
         padding: 1px;
     }
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
