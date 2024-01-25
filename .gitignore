@@ -33,6 +33,7 @@ _testmain.go
 
 # mac hidden files
 .DS_Store
+Imagenes/
 
 ##other
 #node_modules/
