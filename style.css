@@ -90,8 +90,14 @@ div img{
     header a{
         display: none;
     }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
     
-    .lineasHorizontales{
-
+}
+@media screen and (max-width: 378px) {
+    header img{
+        padding: 1px;
     }
 }
