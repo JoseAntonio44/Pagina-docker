@@ -131,3 +131,9 @@ a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+}
