@@ -26,6 +26,7 @@ header{
     border-color: #c4c8d1;
     flex-wrap: nowrap;
     width: 100%;
+    margin-bottom: 35px;
 }
 header a{
     font-size: 20px;
@@ -131,9 +132,73 @@ a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
+article div{
+    width: fit-content;
+}
 
 h1{
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+    color: #0b214a;
 }
+article p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 780px){
+    article h1{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 614px){
+    article h1{
+        font-size: 40px;
+    }
+    article p{
+        font-size: 10px;
+    }
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 100px;
+}
+section a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+p a{
+    text-decoration: none;
+    color: #1d63ed;
+    margin-left: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.botonesDescarga{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
