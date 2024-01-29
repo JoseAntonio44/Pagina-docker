@@ -26,6 +26,7 @@ header{
     border-color: #c4c8d1;
     flex-wrap: nowrap;
     width: 100%;
+    margin-bottom: 35px;
 }
 header a{
     font-size: 20px;
@@ -54,7 +55,7 @@ div img{
     height: 20px;
     padding-top: 35px;
     padding-bottom: 0px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 .cajaHeader1{
     border-style: solid;
@@ -110,6 +111,7 @@ div img{
     .lineasHorizontales{
         display: none;
     }
+
 }
 @media screen and (max-width: 708px){
     header a{
@@ -133,7 +135,122 @@ a:hover{
 }
 
 h1{
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+    color: #0b214a;
+}
+article p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 780px){
+    article h1{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 614px){
+    article h1{
+        font-size: 40px;
+    }
+    article p{
+        font-size: 20px;
+    }
+}
+section{
+    justify-content: center;
+    line-height: 100px;
+}
+section a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px;
+    width: fit-content;
+    
+}
+p a{
+    text-decoration: none;
+    color: #1d63ed;
+    margin-left: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.botonesDescarga{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 2;
+}
+div div{
+    display: inline-block;
+    width: auto;
+}
+@media screen and (max-width: 635px){
+    section h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 685px){
+    section h1{
+        font-size: 45px;
+    }
+    .primerSection{
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 564px){
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.boton1{
+    border-radius: 6px;
+    background-color: #1d63ed;
+    color: white;
+}
+.boton2{
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #c4c8d1 ;
+    border-width: 2px;
+}
+.paginaEjemplo{
+    width: fit-content;
+}
+.paginaEjemplo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+article div img{
+    width: 740px;
+    max-width: 100%;
+    height: auto;
+}
+.boton1:hover{
+    transition: 400ms;
+    background-color: #072f7f;
+}
+.boton2:hover{
+    transition: 400ms;
+    background-color: rgb(220, 220, 220);
 }
