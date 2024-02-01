@@ -1,6 +1,9 @@
 body{
+    display: flex;
     font-family: 'Roboto', sans-serif;
-    font-weight: 1000;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center;
 }
 header a{
     text-decoration: none;
@@ -27,6 +30,7 @@ header{
     flex-wrap: nowrap;
     width: 100%;
     margin-bottom: 35px;
+    font-weight: 1000;
 }
 header a{
     font-size: 20px;
@@ -82,7 +86,7 @@ div img{
     div a{
         padding-top: 10px;
     }
-    div img{
+    header div img{
         width: 15px;
         height: 15px;
         padding-right: 0px;
@@ -97,7 +101,7 @@ div img{
     div a{
         padding-top: 10px;
     }
-    div img{
+    header div img{
         width: 10px;
         height: 10px;
     }
@@ -171,7 +175,7 @@ article{
         font-size: 20px;
     }
 }
-section{
+section {
     justify-content: center;
     line-height: 100px;
 }
@@ -208,7 +212,7 @@ div div{
 }
 @media screen and (max-width: 685px){
     section h1{
-        font-size: 45px;
+        font-size: 60px;
     }
     .primerSection{
         line-height: 50px;
@@ -234,12 +238,13 @@ div div{
     border-width: 2px;
 }
 .paginaEjemplo{
-    width: fit-content;
-}
-.paginaEjemplo{
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: center;
+    background-image: url(Imagenes/imagen_fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50px;
 }
 article div img{
     width: 740px;
@@ -254,3 +259,92 @@ article div img{
     transition: 400ms;
     background-color: rgb(220, 220, 220);
 }
+
+.explicacionDocker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.explicacionDocker section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 820px;
+    line-height: 63px;
+}
+.explicacionDocker h2{
+    text-align: center;
+    font-size: 24px;
+    color: #0c49c2;
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.explicacionDocker h3{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.explicacionDocker p{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.botones_ejemplos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+.botones_ejemplos div{
+    display: flex;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0px;
+    width: 124px;
+    height: fit-content;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 64px;
+    border-style: solid;
+    border: 1px;
+    border-color: #ddd;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
+    align-items: center;
+}
+.botones_ejemplos a{
+    padding: 0px;
+    font-weight: 600;
+    margin: 0px;
+    height: fit-content;
+    font-size: 20px;
+    text-decoration: none;
+}
+.botones_ejemplos img{
+    padding: 0px;
+}
+
+@media screen and (max-width:780px){
+    .explicacionDocker h3{
+        font-size: 40px;
+    }
+}
+
