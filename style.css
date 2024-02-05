@@ -348,3 +348,65 @@ article div img{
     }
 }
 
+.explicacionDocker .porqueUsarDocker{
+    max-width: 1000px;
+}
+
+.logoMarcas{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.logoMarcas div{
+    display: flex;
+    width: 1284px;
+    height: 100%;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.logoMarcas img{
+    width: 321px;
+    height: 186px;
+    padding: 0px;
+    flex-grow: 1;
+}
+@media screen and (max-width:656px){
+    .logoMarcas img{
+        width: 200px;
+        height: 115px;
+    }   
+}
+@media screen and (max-width:406px){
+    .logoMarcas img{
+        width: 159px;
+        height: 92px;
+    }   
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.datos section{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    flex-wrap: wrap;
+}
+.datos h1{
+    font-size: 80px;
+    justify-content: center;
+    height: 100px;
+}
+.datos p{
+    font-weight: 400;
+    justify-content: center;
+    height: fit-content;
+}
