@@ -372,7 +372,7 @@ article div img{
 
 .logoMarcas img{
     width: 321px;
-    height: 186px;
+    height: auto;
     padding: 0px;
     flex-grow: 1;
 }
@@ -536,3 +536,82 @@ span img{
     max-width: 100%;
     height: auto;
 }
+
+.connect{
+    display: flex;
+    max-width: 660px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.connect section{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.connect h2{
+    height: fit-content;
+    font-size: 24px;
+    color: #0c49c2;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.connect h3{
+    height: fit-content;
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.connect p{
+    height: fit-content;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+.connect a{
+    padding: 0px;
+    margin: 0px;
+    color: #1d63ed;
+    font-weight: 600;
+    width: 100%;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    align-items: center;
+    max-width: 520px;
+    line-height: 30px;
+}
+.section2 div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    line-height: normal;
+}
+.section2 p{
+    width: 100%;
+}
+.section2 h4{
+    font-size: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.section2 a{
+    width: 100%;
+}
+
