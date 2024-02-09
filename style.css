@@ -471,6 +471,7 @@ article div img{
     padding: 0px;
     margin: 0px;
     color: #1d63ed;
+    font-weight: 600;
 }
 .imagen{
     display: flex;
@@ -614,4 +615,123 @@ span img{
 .section2 a{
     width: 100%;
 }
+.cortePaginaArriba{
+    width: 100%;
+    line-height: 10px;
+}
+.cortePaginaArriba img{
+    width: 100%;
+    height: auto;
+}
+.cortePaginaAbajo{
+    width: 100%;
+    line-height: 10px;
+}
+.cortePaginaAbajo img{
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+}
 
+.paginaOscura{
+    display: flex;
+    justify-content: center;
+    background-color: #03061e;
+}
+.paginaOscura section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.paginaOscura section div{
+    display: flex;
+    flex-direction: column;
+    max-width: 870px;
+    height: fit-content;
+    line-height: normal;
+}
+.paginaOscura h3{
+    color: white;
+    height: fit-content;
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+}
+.paginaOscura p{
+    color: white;
+    width: 100%;
+    height: fit-content;
+    font-size: 100%;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+.paginaOscura a{
+    padding: 0px;
+    margin: 0px;
+    color: #1d63ed;
+    font-weight: 600;
+    width: 100%;
+    line-height: 50px;
+}
+.iconosTexto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 147px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.iconosTexto div{
+    display: flex;
+    height: fit-content;
+    width: 380px;
+    margin: 30px;
+    margin-top: 0px;
+}
+.iconosTexto img{
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.iconosTexto div p{
+    text-align: left;
+}
+div h2{
+    color: white;
+    font-size: 32px;
+    width: 100%;
+}
+article div{
+    text-align: center;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logos div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.logos div img{
+    width: 200px;
+    height: 30px;
+    margin: 30px;
+    padding: 0px;
+}
