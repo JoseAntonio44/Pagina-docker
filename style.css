@@ -443,6 +443,7 @@ article div img{
     height: 100%;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: left;
 }
 .texto h2{
     height: fit-content;
@@ -734,4 +735,77 @@ article div{
     height: 30px;
     margin: 30px;
     padding: 0px;
+}
+
+.empezar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.empezar section{
+    max-width: 1280px;
+}
+.empezar section div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    line-height: 60px;
+    margin-top: 54px;
+}
+
+.empezar section div h2{
+    width: 100%;
+    text-align: left;
+    height: fit-content;
+    color: #0c49c2;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.empezar section div h3{
+    width: 100%;
+    text-align: left;
+    height: fit-content;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.pasos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1280px;
+}
+.pasos div{
+    display: flex;
+    max-width: 380px;
+    line-height: normal;
+    flex-direction: column;
+    text-align: left;
+}
+.pasos div img{
+    width: 28px;
+    height: 28.7px;
+}
+
+.pasos div h4{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+}
+.pasos div p{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    width: fit-content;
+    text-align: left;
+    margin-top: 15px;
+}
+.pasos div a{
+    width: fit-content;
+    color: #1d63ed;
+    margin: 0px;
+    text-decoration: none;
 }
