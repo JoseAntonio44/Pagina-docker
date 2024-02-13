@@ -817,6 +817,7 @@ article div{
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 134px;
 }
 .cuadroAzul section{
     display: flex;
@@ -879,4 +880,127 @@ article div{
     .cuadroAzul div{
         margin: 0px;
     }
+}
+footer{
+    width: 100%;
+}
+
+#listas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+footer div{
+    display: flex;
+    height: fit-content;
+    width: 320px;
+}
+footer img{
+    width: 150px;
+    height: 50px;
+    padding: 0px;
+}
+#submenu{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+li ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    max-width: 960px;   
+}
+footer li{
+    list-style: none;
+    width: fit-content;
+}
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 22px 0 12px 0;
+    color: #393f49;
+    padding: 0px;
+    width: fit-content;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin-left: 10px;
+}
+ul li ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: fit-content;
+}
+ul li ul li a{
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.9em;
+    color: #393f49
+}
+@media screen and (max-width:1265px){
+    #listas div{
+        justify-content: center;
+    }
+    
+}
+footer section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: normal;
+}
+footer article{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer article p{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #505968;
+}
+footer article span{
+    font-weight: 200;
+    color: #505968;
+}
+footer section:nth-child(1){
+    width: 290px;
+    justify-content: space-between;
+}
+footer section:nth-child(2) a{
+    margin: 0px;
+    font-size: 12px;
+}
+footer section:nth-child(3) a{
+    margin: 0px;
+    font-size: 13px;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #1d63ed;
+}
+footer section:nth-child(3) a:hover{
+    background-color: #1d63ed;
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+footer section img{
+    width: 30px;
+    height: 30px;
 }
