@@ -9,11 +9,11 @@ body{
 header a{
     text-decoration: none;
 }
-.cajaHeader1:hover{
+#cajaHeader1:hover{
     transition: 400ms;
     background-color: rgb(220, 220, 220);
 }
-.cajaHeader2:hover{
+#cajaHeader2:hover{
     transition: 400ms;
     background-color: #072f7f;
 }
@@ -62,14 +62,14 @@ div img{
     padding-bottom: 0px;
     padding-right: 0px;
 }
-.cajaHeader1{
+#cajaHeader1{
     border-style: solid;
     border-radius: 6px;
     border-width: 2px;
     border-color: #c4c8d1;
     font-weight: 600;
 }
-.cajaHeader2{
+#cajaHeader2{
     border-style: solid;
     border-radius: 6px;
     border-width: 2px;
@@ -113,7 +113,7 @@ div img{
     }
 }
 @media screen and (min-width: 708px){
-    .lineasHorizontales{
+    #lineasHorizontales{
         display: none;
     }
 
@@ -196,7 +196,7 @@ p a{
     padding: 0px;
     background-color: white;
 }
-.botonesDescarga{
+#botonesDescarga{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -216,7 +216,7 @@ div div{
     section h1{
         font-size: 60px;
     }
-    .primerSection{
+    #primerSection{
         line-height: 50px;
     }
 }
@@ -228,18 +228,18 @@ div div{
     }
 }
 
-.boton1{
+#boton1{
     border-radius: 6px;
     background-color: #1d63ed;
     color: white;
 }
-.boton2{
+#boton2{
     border-radius: 6px;
     border-style: solid;
     border-color: #c4c8d1 ;
     border-width: 2px;
 }
-.paginaEjemplo{
+#paginaEjemplo{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -253,22 +253,22 @@ article div img{
     max-width: 100%;
     height: auto;
 }
-.boton1:hover{
+#boton1:hover{
     transition: 400ms;
     background-color: #072f7f;
 }
-.boton2:hover{
+#boton2:hover{
     transition: 400ms;
     background-color: rgb(220, 220, 220);
 }
 
-.explicacionDocker{
+#explicacionDocker{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
 }
-.explicacionDocker section{
+#explicacionDocker section{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -276,7 +276,7 @@ article div img{
     max-width: 820px;
     line-height: 63px;
 }
-.explicacionDocker h2{
+#explicacionDocker h2{
     text-align: center;
     font-size: 24px;
     color: #0c49c2;
@@ -286,7 +286,7 @@ article div img{
     margin-bottom: 10px;
     font-weight: 500;
 }
-.explicacionDocker h3{
+#explicacionDocker h3{
     text-align: center;
     width: 100%;
     height: fit-content;
@@ -295,7 +295,7 @@ article div img{
     margin-bottom: 10px;
     font-weight: 700;
 }
-.explicacionDocker p{
+#explicacionDocker p{
     text-align: center;
     width: 100%;
     height: fit-content;
@@ -305,7 +305,7 @@ article div img{
     padding-bottom: 20px;
 }
 
-.botones_ejemplos{
+#botones_ejemplos{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -313,7 +313,7 @@ article div img{
     padding-top: 20px;
     padding-bottom: 48px;
 }
-.botones_ejemplos div{
+#botones_ejemplos div{
     display: flex;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -332,7 +332,7 @@ article div img{
     cursor: pointer;
     align-items: center;
 }
-.botones_ejemplos a{
+#botones_ejemplos a{
     padding: 0px;
     font-weight: 600;
     margin: 0px;
@@ -340,27 +340,27 @@ article div img{
     font-size: 20px;
     text-decoration: none;
 }
-.botones_ejemplos img{
+#botones_ejemplos img{
     padding: 0px;
 }
 
 @media screen and (max-width:780px){
-    .explicacionDocker h3{
+    #explicacionDocker h3{
         font-size: 40px;
     }
 }
 
-.explicacionDocker .porqueUsarDocker{
+#explicacionDocker #porqueUsarDocker{
     max-width: 1000px;
 }
 
-.logoMarcas{
+#logoMarcas{
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
 }
-.logoMarcas div{
+#logoMarcas div{
     display: flex;
     width: 1284px;
     height: 100%;
@@ -370,33 +370,33 @@ article div img{
     margin: 20px;
 }
 
-.logoMarcas img{
+#logoMarcas img{
     width: 321px;
     height: auto;
     padding: 0px;
     flex-grow: 1;
 }
 @media screen and (max-width:656px){
-    .logoMarcas img{
+    #logoMarcas img{
         width: 200px;
         height: 115px;
     }   
 }
 @media screen and (max-width:406px){
-    .logoMarcas img{
+    #logoMarcas img{
         width: 159px;
         height: 92px;
     }   
 }
 
-.datos{
+#datos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px;
 }
-.datos section{
+#datos section{
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -404,32 +404,32 @@ article div img{
     padding-left: 130px;
     padding-right: 130px;
 }
-.datos h1{
+#datos h1{
     font-size: 80px;
     justify-content: center;
     height: 100px;
 }
-.datos p{
+#datos p{
     font-weight: 400;
     justify-content: center;
     height: fit-content;
 }
 
-.containerGuide{
+#containerGuide{
     display: flex;
     flex-direction: row;
     margin-top: 72px;
     padding-top: 54px;
     padding-bottom: 50px;
 }
-.containerGuide section{
+#containerGuide section{
     display: flex;
     flex-direction: row;
     line-height: normal;
     margin: auto;
     flex-wrap: wrap;
 }
-.texto{
+#texto{
     display: flex;
     flex-direction: column;
     max-width: 752px;
@@ -437,7 +437,7 @@ article div img{
     margin-right: 10px;
     line-height: 50px;
 }
-.texto div{
+#texto div{
     display: flex;
     width: 100%;
     height: 100%;
@@ -445,7 +445,7 @@ article div img{
     flex-wrap: wrap;
     text-align: left;
 }
-.texto h2{
+#texto h2{
     height: fit-content;
     font-size: 24px;
     color: #0c49c2;
@@ -453,14 +453,14 @@ article div img{
     margin-bottom: 10px;
     font-weight: 500;
 }
-.texto h3{
+#texto h3{
     height: fit-content;
     font-size: 55px;
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 700;
 }
-.texto p{
+#texto p{
     height: fit-content;
     text-align: left;
     font-size: 100%;
@@ -468,57 +468,57 @@ article div img{
     line-height: 30px;
     margin-bottom: 0px;
 }
-.texto a{
+#texto a{
     padding: 0px;
     margin: 0px;
     color: #1d63ed;
     font-weight: 600;
 }
-.imagen{
+#imagen{
     display: flex;
     width: 488px;
     height: fit-content;
     flex-direction: column;
 }
-.imagen div{
+#imagen div{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.containerGuide img{
+#containerGuide img{
     height: 343px;
     width: 300px;
     padding: 0px;
     max-width: 100%;
 }
 @media screen and (max-width:1246px){
-    .texto h2, h3{
+    #texto h2, h3{
         text-align: center;
         width: 100%;
     }
-    .texto p{
+    #texto p{
         text-align: center;
         width: 100%;
     }
-    .texto a{
+    #texto a{
         text-align: center;
         width: 100%;
     }
-    .texto div{
+    #texto div{
         width: 100%;
     }
-    .imagen{
+    #imagen{
         width: 100%;
     }
 }
 @media screen and (max-width:780px){
-    .explicacionDocker h3{
+    #explicacionDocker h3{
         font-size: 40px;
     }
-    .texto h3{
+    #texto h3{
         font-size: 40px;
     }
-    .containerGuide{
+    #containerGuide{
         width: 100%;
     }
 }
@@ -539,14 +539,14 @@ span img{
     height: auto;
 }
 
-.connect{
+#connect{
     display: flex;
     max-width: 660px;
     height: fit-content;
     justify-content: center;
     align-items: center;
 }
-.connect section{
+#connect section{
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -556,7 +556,7 @@ span img{
     line-height: normal;
     margin-bottom: 30px;
 }
-.connect h2{
+#connect h2{
     height: fit-content;
     font-size: 24px;
     color: #0c49c2;
@@ -565,7 +565,7 @@ span img{
     font-weight: 500;
     text-align: center;
 }
-.connect h3{
+#connect h3{
     height: fit-content;
     font-size: 55px;
     margin-top: 0px;
@@ -573,7 +573,7 @@ span img{
     font-weight: 700;
     text-align: center;
 }
-.connect p{
+#connect p{
     height: fit-content;
     text-align: left;
     font-size: 100%;
@@ -582,14 +582,14 @@ span img{
     text-align: center;
     width: 100%;
 }
-.connect a{
+#connect a{
     padding: 0px;
     margin: 0px;
     color: #1d63ed;
     font-weight: 600;
     width: 100%;
 }
-.section2{
+#section2{
     display: flex;
     flex-direction: column;
     line-height: normal;
@@ -597,49 +597,49 @@ span img{
     max-width: 520px;
     line-height: 30px;
 }
-.section2 div{
+#section2 div{
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     line-height: normal;
 }
-.section2 p{
+#section2 p{
     width: 100%;
 }
-.section2 h4{
+#section2 h4{
     font-size: 20px;
     margin-bottom: 0px;
     width: 100%;
     text-align: center;
 }
-.section2 a{
+#section2 a{
     width: 100%;
 }
-.cortePaginaArriba{
+#cortePaginaArriba{
     width: 100%;
     line-height: 10px;
 }
-.cortePaginaArriba img{
+#cortePaginaArriba img{
     width: 100%;
     height: auto;
 }
-.cortePaginaAbajo{
+#cortePaginaAbajo{
     width: 100%;
     line-height: 10px;
 }
-.cortePaginaAbajo img{
+#cortePaginaAbajo img{
     width: 100%;
     height: auto;
     padding-top: 0px;
 }
 
-.paginaOscura{
+#paginaOscura{
     display: flex;
     justify-content: center;
     background-color: #03061e;
 }
-.paginaOscura section{
+#paginaOscura section{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -647,14 +647,14 @@ span img{
     padding-top: 100px;
     padding-bottom: 10px;
 }
-.paginaOscura section div{
+#paginaOscura section div{
     display: flex;
     flex-direction: column;
     max-width: 870px;
     height: fit-content;
     line-height: normal;
 }
-.paginaOscura h3{
+#paginaOscura h3{
     color: white;
     height: fit-content;
     font-size: 55px;
@@ -665,7 +665,7 @@ span img{
     line-height: 60px;
     width: 100%;
 }
-.paginaOscura p{
+#paginaOscura p{
     color: white;
     width: 100%;
     height: fit-content;
@@ -675,7 +675,7 @@ span img{
     text-align: center;
     width: 100%;
 }
-.paginaOscura a{
+#paginaOscura a{
     padding: 0px;
     margin: 0px;
     color: #1d63ed;
@@ -683,7 +683,7 @@ span img{
     width: 100%;
     line-height: 50px;
 }
-.iconosTexto{
+#iconosTexto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -693,19 +693,19 @@ span img{
     align-items: center;
 }
 
-.iconosTexto div{
+#iconosTexto div{
     display: flex;
     height: fit-content;
     width: 380px;
     margin: 30px;
     margin-top: 0px;
 }
-.iconosTexto img{
+#iconosTexto img{
     width: 70px;
     height: auto;
     margin-bottom: 15px;
 }
-.iconosTexto div p{
+#iconosTexto div p{
     text-align: left;
 }
 div h2{
@@ -716,40 +716,40 @@ div h2{
 article div{
     text-align: center;
 }
-.logos{
+#logos{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     margin-bottom: 50px;
 }
-.logos div{
+#logos div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
-.logos div img{
+#logos div img{
     width: 200px;
     height: 30px;
     margin: 30px;
     padding: 0px;
 }
 
-.empezar{
+#empezar{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.empezar section{
+#empezar section{
     max-width: 1280px;
     margin: 0px 10px 0px 10px;
 
 }
-.empezar section div{
+#empezar section div{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -757,7 +757,7 @@ article div{
     margin-top: 54px;
 }
 
-.empezar section div h2{
+#empezar section div h2{
     width: 100%;
     text-align: left;
     height: fit-content;
@@ -766,7 +766,7 @@ article div{
     font-weight: 500;
     margin-bottom: 5px;
 }
-.empezar section div h3{
+#empezar section div h3{
     width: 100%;
     text-align: left;
     height: fit-content;
@@ -774,13 +774,13 @@ article div{
     font-weight: 700;
     margin-top: 0px;
 }
-.pasos{
+#pasos{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
-.pasos div{
+#pasos div{
     display: flex;
     max-width: 380px;
     line-height: normal;
@@ -788,17 +788,17 @@ article div{
     text-align: left;
     margin:0px 35px 0px 35px;
 }
-.pasos div img{
+#pasos div img{
     width: 28px;
     height: 28.7px;
 }
 
-.pasos div h4{
+#pasos div h4{
     font-size: 20px;
     width: 100%;
     margin: 0px;
 }
-.pasos div p{
+#pasos div p{
     font-size: 16px;
     font-weight: 500;
     color: gray;
@@ -806,20 +806,20 @@ article div{
     text-align: left;
     margin-top: 15px;
 }
-.pasos div a{
+#pasos div a{
     width: fit-content;
     color: #1d63ed;
     margin: 0px;
     text-decoration: none;
 }
-.cuadroAzul{
+#cuadroAzul{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     padding-bottom: 134px;
 }
-.cuadroAzul section{
+#cuadroAzul section{
     display: flex;
     max-width: 1160px;
     height: fit-content;
@@ -834,7 +834,7 @@ article div{
     flex-wrap: wrap;
 
 }
-.cuadroAzul div{
+#cuadroAzul div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -842,7 +842,7 @@ article div{
     height: fit-content;
     margin-right: 70px;
 }
-.cuadroAzul div p{
+#cuadroAzul div p{
     height: fit-content;
     width: 100%;
     margin: 0px;
@@ -850,7 +850,7 @@ article div{
     font-size: 18px;
     color: white;
 }
-.cuadroAzul div h2{
+#cuadroAzul div h2{
     height: fit-content;
     width: 100%;
     margin: 0px;
@@ -858,7 +858,7 @@ article div{
     font-size: 38px;
     font-weight: 700;
 }
-.cuadroAzul a{
+#cuadroAzul a{
     padding: 18px 23px 18px 23px;
     background-color: white;
     text-decoration: none;
@@ -870,14 +870,14 @@ article div{
     color: #1d63ed;
 }
 @media screen and (max-width:1305px){
-    .cuadroAzul section{
+    #cuadroAzul section{
         flex-direction: column;
     }
-    .cuadroAzul a{
+    #cuadroAzul a{
         margin-top: 40px;
         text-align: center;
     }
-    .cuadroAzul div{
+    #cuadroAzul div{
         margin: 0px;
     }
 }
