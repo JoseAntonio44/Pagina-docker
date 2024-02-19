@@ -47,6 +47,7 @@ header div{
     flex-wrap: nowrap;
     flex-direction: row;
     flex-grow: 1;
+    margin-right: 30px;
 }
 div a {
     margin-left: 10px;
@@ -107,12 +108,12 @@ div img{
         height: 10px;
     }
 }
-@media screen and (max-width: 918px){
+@media screen and (max-width: 950px){
     header div{
         display: none;
     }
 }
-@media screen and (min-width: 708px){
+@media screen and (min-width: 950px){
     #lineasHorizontales{
         display: none;
     }
@@ -279,7 +280,6 @@ article div img{
 #explicacionDocker h2{
     text-align: center;
     font-size: 24px;
-    color: #0c49c2;
     width: 100%;
     height: fit-content;
     margin-top: 80px;
@@ -448,7 +448,6 @@ article div img{
 #texto h2{
     height: fit-content;
     font-size: 24px;
-    color: #0c49c2;
     margin-top: 70px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -559,7 +558,6 @@ span img{
 #connect h2{
     height: fit-content;
     font-size: 24px;
-    color: #0c49c2;
     margin-top: 70px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -761,7 +759,6 @@ article div{
     width: 100%;
     text-align: left;
     height: fit-content;
-    color: #0c49c2;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 5px;
@@ -1003,4 +1000,11 @@ footer section:nth-child(3) a:hover{
 footer section img{
     width: 30px;
     height: 30px;
+}
+
+.letraDegradado {
+    background: linear-gradient(90deg,#00084d 0,#1d63ed 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
