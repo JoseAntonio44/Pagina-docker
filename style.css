@@ -119,7 +119,7 @@ div img{
     }
 
 }
-@media screen and (max-width: 708px){
+@media screen and (max-width: 850px){
     header a{
         display: none;
     }
@@ -221,7 +221,7 @@ div div{
         line-height: 50px;
     }
 }
-@media screen and (max-width: 564px){
+@media screen and (max-width: 730px){
     div{
         display: flex;
         flex-wrap: wrap;
@@ -248,11 +248,13 @@ div div{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50px;
+    
 }
 article div img{
     width: 740px;
     max-width: 100%;
     height: auto;
+    
 }
 #boton1:hover{
     transition: 400ms;
@@ -319,7 +321,7 @@ article div img{
     padding-bottom: 14px;
     padding-left: 8px;
     padding-right: 8px;
-    margin: 0px;
+    margin: 10px;
     width: 124px;
     height: fit-content;
     justify-content: center;
@@ -331,6 +333,7 @@ article div img{
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
     cursor: pointer;
     align-items: center;
+
 }
 #botones_ejemplos a{
     padding: 0px;
@@ -688,7 +691,7 @@ span img{
     width: 1200px;
     height: 147px;
     padding-top: 20px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #iconosTexto div{
@@ -753,6 +756,7 @@ article div{
     flex-direction: column;
     line-height: 60px;
     margin-top: 54px;
+    margin-left: 15px;
 }
 
 #empezar section div h2{
@@ -948,6 +952,10 @@ ul li ul li a{
 }
 @media screen and (max-width:1265px){
     #listas div{
+        justify-content: space-evenly;
+        
+    }
+    #submenu{
         justify-content: center;
     }
     
@@ -990,6 +998,7 @@ footer section:nth-child(3) a{
     font-size: 13px;
     padding: 10px 25px 10px 25px;
     border: 2px solid #1d63ed;
+    margin-top: 10px;
 }
 footer section:nth-child(3) a:hover{
     background-color: #1d63ed;
