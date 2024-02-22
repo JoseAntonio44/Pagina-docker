@@ -792,16 +792,16 @@ article div{
 #pasos{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
 }
+
 #pasos div{
     display: flex;
     max-width: 380px;
     line-height: normal;
     flex-direction: column;
     text-align: left;
-    margin:0px 35px 0px 35px;
 }
 #pasos div img{
     width: 28px;
@@ -874,7 +874,7 @@ article div{
     font-weight: 700;
 }
 #cuadroAzul a{
-    padding: 14px 30px 14px 30px;
+    padding: 14px 25px 14px 25px;
     background-color: white;
     text-decoration: none;
     text-align: center;
