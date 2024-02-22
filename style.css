@@ -342,6 +342,10 @@ article div img{
     align-items: center;
 
 }
+#botones_ejemplos div:hover{
+    background-color: #1d63ed;
+    color: white;
+}
 #botones_ejemplos a{
     padding: 0px;
     font-weight: 600;
